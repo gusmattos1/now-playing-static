@@ -248,20 +248,39 @@ figure {
   article:first-child div p {
     display: block;
   }
-  /* article figure img .movie-image {
-    display: none; */
-}
-
-/* .movie-poster {
+  .movie-poster {
     display: block;
-  } */
+  }
+  .movie-backdrop {
+    display: none;
+  }
+  article:first-child .movie-backdrop {
+    display: block;
+  }
+  article:first-child .movie-poster {
+    display: none;
+  }
+  article {
+    width: 33%;
+    display: inline-block;
+  }
+  article:first-child {
+    width: 100%;
+  }
+  article:first-child figure {
+    width: 100%;
+  }
+  /* article figure img .movie-image {
+    display: none; }
+
+
+.movie-image {
+  display: none;}
+
 
 article:first-child .movie-poster {
-  display: block;
-}
+  display: block; }
 
 article:first-child .movie-image {
-  display: none;
-}
-
+  display: none; } */
 }
